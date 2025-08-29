@@ -10,12 +10,12 @@ Each project demonstrates different use cases ranging from data visualization to
 ### 1️⃣ Clone the Repository
 ```bash
 git clone https://github.com/Waleed8001/Streamlit-Projects.git
-cd streamlit-projects
+cd Streamlit-Projects
 ```
 
 2️⃣ Navigate to a Project Folder
 ```bash
-cd project-name-1
+cd Project_1
 ```
 
 3️⃣ Install Dependencies
@@ -34,4 +34,5 @@ streamlit run app.py
 If you have any questions or suggestions, feel free to reach out:
 
 GitHub: [Waleed8001](https://github.com/Waleed8001/)
+
 Email: waleedkamal801@gmail.com
