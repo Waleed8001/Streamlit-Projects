@@ -10,7 +10,7 @@ Each project demonstrates different use cases ranging from data visualization to
 ### 1️⃣ Clone the Repository
 ```bash
 git clone https://github.com/Waleed8001/Streamlit-Projects.git
-cd streamlit-projects
+cd streamlit-projects```
 
 2️⃣ Navigate to a Project Folder
 cd project-name-1
