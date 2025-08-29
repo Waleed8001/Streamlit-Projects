@@ -209,13 +209,12 @@ def choose_country(my_key):
 
 c1 = c2 = None
 
-
 c1 = choose_country("Country_1")
 
 if c1 is not None:
     c1 = c1[:3]
 
-num = st.number_input("Enter Number", min_value=0.0)
+num = st.number_input("Enter Number", min_value=0.0, step=1., format="%.2f")
 
 c2 = choose_country("Country_2")
 
@@ -231,7 +230,7 @@ if convert:
         my_bar = st.progress(0, text=progress_text)
 
         for percent_complete in range(100):
-            time.sleep(0.01)
+            time.sleep(0.1)
             my_bar.progress(percent_complete + 1, text=progress_text)
             
         time.sleep(1)
@@ -249,3 +248,4 @@ if convert:
 
     else:
         st.error("Please select a Valid Country")
+
