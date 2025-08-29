@@ -31,6 +31,8 @@ streamlit run app.py
 
 <img width="1920" height="838" alt="image" src="https://github.com/user-attachments/assets/3f948b3d-eeaa-4c98-aff7-782498cdceba" />
 
+
+👨‍💻 Author
 If you have any questions or suggestions, feel free to reach out:
 
 GitHub: [Waleed8001](https://github.com/Waleed8001/)
