@@ -18,9 +18,8 @@ cd streamlit-projects
 cd project-name-1
 ```
 
-```bash
 3️⃣ Install Dependencies
-```
+```bash
 It’s recommended to use a virtual environment:
 pip install -r requirements.txt
 ```
