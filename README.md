@@ -14,16 +14,21 @@ cd streamlit-projects
 ```
 
 2️⃣ Navigate to a Project Folder
+```bash
 cd project-name-1
+```
 
+```bash
 3️⃣ Install Dependencies
-
+```
 It’s recommended to use a virtual environment:
-
 pip install -r requirements.txt
+```
 
 4️⃣ Run the Streamlit App
+```bash
 streamlit run app.py
+```
 
 <img width="1920" height="838" alt="image" src="https://github.com/user-attachments/assets/3f948b3d-eeaa-4c98-aff7-782498cdceba" />
 
