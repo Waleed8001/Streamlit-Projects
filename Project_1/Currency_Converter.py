@@ -249,15 +249,3 @@ if convert:
 
     else:
         st.error("Please select a Valid Country")
-
-# st.header("Welcome to my Portfolio")
-# st.header("WOW")
-# c2 = st.selectbox(
-#     "Select Currency",
-#     st.session_state.coun,
-#     index=None,
-#     placeholder="PKR",
-#     accept_new_options=True,
-#     key="curr_2"
-
-# )
