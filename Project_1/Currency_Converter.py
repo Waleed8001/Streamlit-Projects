@@ -215,7 +215,7 @@ c1 = choose_country("Country_1")
 if c1 is not None:
     c1 = c1[:3]
 
-num = st.number_input("Enter Number", min_value=0)
+num = st.number_input("Enter Number", min_value=0.0)
 
 c2 = choose_country("Country_2")
 
@@ -231,7 +231,7 @@ if convert:
         my_bar = st.progress(0, text=progress_text)
 
         for percent_complete in range(100):
-            time.sleep(0.001)
+            time.sleep(0.01)
             my_bar.progress(percent_complete + 1, text=progress_text)
             
         time.sleep(1)
@@ -259,4 +259,5 @@ if convert:
 #     placeholder="PKR",
 #     accept_new_options=True,
 #     key="curr_2"
+
 # )
